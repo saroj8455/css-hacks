@@ -32,7 +32,8 @@ body {
 ## Minimal css properties and value most of the getting start project 
 
 ```css
-// reset the default margin, If you add any framework <br> don't do this it will overwrite the framework behaviour
+// reset the default margin, If you add any framework
+// don't do this it will overwrite the framework behaviour
 * {
     margin:0;
     padding:0;
