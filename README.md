@@ -72,3 +72,30 @@ ul li {
     list-style: none;
 }
 ```
+## Minimal css for button
+```css
+// Center the button text or button
+button {
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+/*    button is an inline-block element by default,
+it needs to have a block display for margin: 0 auto; to work */
+    display: block;
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+// Display only 3 lines of a paragraph or description
+// Like: hi hello world...
+.card__text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+```
