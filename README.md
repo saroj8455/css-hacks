@@ -72,7 +72,7 @@ ul li {
     list-style: none;
 }
 ```
-## Minimal css for button
+## Minimal css for button and paragraph only show limited line
 ```css
 // Center the button text or button
 button {
