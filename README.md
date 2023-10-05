@@ -34,8 +34,40 @@ body {
 ```css
 // reset the default margin, If you add any framework don't do this it will overwrite the framework behaviour
 * {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+// put light dark color whole page
+html {
+    color-scheme: light dark;
+}
+// Minimal design for body text
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    /*background-color: #eaeff1;*/
+}
+// Center the main containr like: margin:0 auto;
+main {
+    width: min(65ch,100% - 4rem);
+    /* margin: 0 auto; work*/
+    margin-inline: auto;
+}
+// Remove the default style
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+// Definitely use the below for responsive image style
+img,picture,svg {
+    max-width: 100%;
+    display: block;
+    /*object-fit: cover;*/
+}
+// Remove the default bullet points from the list item
+ul li {
+    list-style: none;
 }
 ```
