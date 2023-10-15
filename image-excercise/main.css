@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.box {
+    min-height: 400px;
+    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+/*Better to provide Objectfit contain*/
+.box1 img {
+    object-fit: contain;
+}
+.box2 img {
+    object-fit: cover;
+}
+.box3 img {
+    object-fit: fill;
+}
